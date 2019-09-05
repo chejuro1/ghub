@@ -41,9 +41,7 @@
       <url>sftp://propellers.net/maven</url>
       <layout>legacy</layout>
     </snapshotRepository>
-       ...
   </distributionManagement>
-
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
