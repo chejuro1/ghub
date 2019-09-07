@@ -5,7 +5,8 @@ node('maven-label'){
       git 'https://github.com/chejuro1/ghub.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
+      // **       in the global configuration.
+      mvnHome = tool 'maven-3.6.2'
       mvnHome = "/usr/share/maven"
    }
    stage('Build') {
