@@ -21,7 +21,7 @@ node('Maven-label'){
       archiveArtifacts 'target/*.jar'
    }
    stage('Send email') {
-    def mailRecipients = "your_recipients@company.com"
+    def mailRecipients = "julestl@yahoo.fr"
     def jobName = currentBuild.fullDisplayName
 
     emailext body: '''${SCRIPT, template="groovy-html.template"}''',
