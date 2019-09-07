@@ -2,7 +2,7 @@ node('maven-label') {
    def mvnHome
    stage('Preparation') { 
       
-     git branch: "$branch_name", url: 'https://github.com/IP-RandD/ghub.git'
+     git branch: "$branch_name", url: 'https://github.com/chejuro1/ghub.git'
                  
       mvnHome = tool 'maven-3.6.2'
    }
